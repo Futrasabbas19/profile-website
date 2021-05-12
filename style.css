@@ -3,6 +3,10 @@
   padding: 0px;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -162,7 +166,4 @@
 #send:hover{
     cursor: pointer;
     box-shadow: 0 0 10px white;
-}
-html{
-    scroll-behavior: smooth;
 }
